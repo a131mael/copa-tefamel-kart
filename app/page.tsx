@@ -203,6 +203,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Patrocinadores */}
+      <section>
+        <h2 className="text-xl font-black uppercase tracking-tight mb-1">Patrocinadores</h2>
+        <div className="h-0.5 w-16 bg-[#F2C200] mb-6" />
+        <div className="grid grid-cols-3 gap-4">
+          {[
+            { nome: "Colégio Adonai",  url: "https://www.colegioadonai.com.br" },
+            { nome: "Tefamel",         url: "https://www.tefamel.com" },
+            { nome: "PeçaFiltro",      url: null },
+          ].map((p) => (
+            <div
+              key={p.nome}
+              className="bg-[#2A2A32] border border-[#3A3A45] rounded-2xl flex items-center justify-center py-8 px-4 hover:border-[#F2C200] transition-colors"
+            >
+              {p.url ? (
+                <a href={p.url} target="_blank" rel="noopener noreferrer" className="text-center">
+                  <p className="font-black text-white text-lg leading-tight">{p.nome}</p>
+                  <p className="text-[#F2C200] text-xs mt-1 uppercase tracking-widest">Patrocinador</p>
+                </a>
+              ) : (
+                <div className="text-center">
+                  <p className="font-black text-white text-lg leading-tight">{p.nome}</p>
+                  <p className="text-[#F2C200] text-xs mt-1 uppercase tracking-widest">Patrocinador</p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Instagram embed */}
       <section>
         <div className="flex items-center gap-3 mb-4">
