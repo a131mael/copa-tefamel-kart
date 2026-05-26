@@ -69,43 +69,60 @@ export const ETAPAS: Etapa[] = [
     slug: "etapa-1",
     numero: 1,
     titulo: "1ª Etapa",
-    data: "2025-02-15",
+    data: "2026-03-15",
     local: "Speedway Music Park — Palhoça, SC",
     status: "realizada",
-    descricao: "Abertura do campeonato com largada emocionante e disputa acirrada nas primeiras voltas.",
+    descricao: "Abertura da temporada 2026 com Kauan Costa dominando de ponta a ponta. Alex Dutra cravou a volta mais rápida da etapa.",
     fotos: [],
     videos: [],
-    resultados: [], // aguardando resultados por etapa
+    resultados: [
+      { pilotoId: 1, posicao: 1, pontos: 25 }, // Kauan Costa
+      { pilotoId: 3, posicao: 2, pontos: 18 }, // Artur Milani
+      { pilotoId: 4, posicao: 3, pontos: 15 }, // Bernardo Gonçalves
+      { pilotoId: 2, posicao: 4, pontos: 12 }, // Alex Dutra
+    ],
   },
   {
     slug: "etapa-2",
     numero: 2,
     titulo: "2ª Etapa",
-    data: "2025-03-15",
+    data: "2026-04-20",
     local: "Speedway Music Park — Palhoça, SC",
     status: "realizada",
-    descricao: "",
+    descricao: "Kauan Costa largou da 10ª posição no grid e venceu de virada em uma das corridas mais emocionantes da Copa Tefamel. Volta mais rápida: Kauan Costa (53:298).",
     fotos: [],
     videos: [],
-    resultados: [],
+    resultados: [
+      { pilotoId: 1, posicao: 1, pontos: 25 }, // Kauan Costa
+      { pilotoId: 6, posicao: 2, pontos: 18 }, // Guilherme Santana
+      { pilotoId: 5, posicao: 3, pontos: 15 }, // Ariel Fidencio
+      { pilotoId: 3, posicao: 4, pontos: 12 }, // Artur Milani
+      { pilotoId: 4, posicao: 5, pontos: 10 }, // Bernardo Gonçalves
+    ],
   },
   {
     slug: "etapa-3",
     numero: 3,
     titulo: "3ª Etapa",
-    data: "2025-04-12",
+    data: "2026-05-25",
     local: "Speedway Music Park — Palhoça, SC",
     status: "realizada",
-    descricao: "",
+    descricao: "Alex Dutra vence a 3ª etapa e pressiona o líder! André Lobo conquista seu primeiro pódio na competição. Kauan Costa, P3, mantém a liderança do campeonato.",
     fotos: [],
     videos: [],
-    resultados: [],
+    resultados: [
+      { pilotoId: 2, posicao: 1, pontos: 25 }, // Alex Dutra
+      { pilotoId: 8, posicao: 2, pontos: 18 }, // André Lobo
+      { pilotoId: 1, posicao: 3, pontos: 15 }, // Kauan Costa
+      { pilotoId: 3, posicao: 4, pontos: 12 }, // Artur Milani
+      { pilotoId: 4, posicao: 5, pontos: 10 }, // Bernardo Gonçalves
+    ],
   },
   {
     slug: "etapa-4",
     numero: 4,
     titulo: "4ª Etapa",
-    data: "2025-05-17",
+    data: "2026-06-14",
     local: "Speedway Music Park — Palhoça, SC",
     status: "proxima",
     fotos: [],
@@ -116,7 +133,7 @@ export const ETAPAS: Etapa[] = [
     slug: "etapa-5",
     numero: 5,
     titulo: "5ª Etapa",
-    data: "2025-06-14",
+    data: "2026-07-12",
     local: "Speedway Music Park — Palhoça, SC",
     status: "futura",
     fotos: [],
@@ -127,7 +144,7 @@ export const ETAPAS: Etapa[] = [
     slug: "etapa-6",
     numero: 6,
     titulo: "6ª Etapa",
-    data: "2025-07-12",
+    data: "2026-08-16",
     local: "Speedway Music Park — Palhoça, SC",
     status: "futura",
     fotos: [],
@@ -138,7 +155,7 @@ export const ETAPAS: Etapa[] = [
     slug: "etapa-7",
     numero: 7,
     titulo: "7ª Etapa",
-    data: "2025-08-16",
+    data: "2026-09-13",
     local: "Speedway Music Park — Palhoça, SC",
     status: "futura",
     fotos: [],
@@ -149,7 +166,7 @@ export const ETAPAS: Etapa[] = [
     slug: "etapa-8",
     numero: 8,
     titulo: "8ª Etapa",
-    data: "2025-09-13",
+    data: "2026-10-18",
     local: "Speedway Music Park — Palhoça, SC",
     status: "futura",
     fotos: [],
@@ -160,7 +177,7 @@ export const ETAPAS: Etapa[] = [
     slug: "etapa-9",
     numero: 9,
     titulo: "9ª Etapa",
-    data: "2025-10-18",
+    data: "2026-11-15",
     local: "Speedway Music Park — Palhoça, SC",
     status: "futura",
     fotos: [],
@@ -171,7 +188,7 @@ export const ETAPAS: Etapa[] = [
     slug: "etapa-10",
     numero: 10,
     titulo: "10ª Etapa — Grande Final",
-    data: "2025-11-15",
+    data: "2026-12-13",
     local: "Speedway Music Park — Palhoça, SC",
     status: "futura",
     fotos: [],
